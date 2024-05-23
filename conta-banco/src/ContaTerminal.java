@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) {
-        Scanner  = new Scanner (System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner (System.in).useLocale(Locale.US);
 
         System.out.println("Por favor, digite seu nome completo: ");
         String nomeCliente = scanner.next ();
@@ -19,3 +19,4 @@ public class ContaTerminal {
 
         System.out.println("Olá "+ nomeCliente+", obrigado por criar uma conta em nosso banco, sua Agencia é "+ agencia +", conta "+ numero +" e seu saldo "+ saldo +" ja esta disponivel para saque.");
     }
+}
